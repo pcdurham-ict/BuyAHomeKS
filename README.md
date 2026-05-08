@@ -26,3 +26,8 @@ Then open `http://localhost:3000`.
 - `app/layout.tsx` — SEO metadata and site wrapper
 - `app/globals.css` — Tailwind and base styles
 - `public/images/pattie-headshot.png` — headshot image
+
+
+## Updated dependency note
+
+This version uses Next.js 14.2.35, a patched 14.x release line, and removes the optional ESLint dependency to reduce Vercel install warnings.
